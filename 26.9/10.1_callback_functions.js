@@ -1,17 +1,17 @@
-// function isString(str, callback) {
-//   if (typeof str === "string") {
-//     callback(str);
-//   } 
-//   else {
-//     console.log("The " + str + " is not a string.");
-//   }
-// }
-// function printString(string) {
-//   console.log(string);
-// }
+function isString(str, callback) {
+  if (typeof str === "string") {
+    callback(str);
+  } 
+  else {
+    console.log("The " + str + " is not a string.");
+  }
+}
+function printString(string) {
+  console.log(string);
+}
 
-// isString("Hello, world!", printString); 
-// isString(42, printString);              
+isString("Hello, world!", printString); 
+isString(42, printString);              
 
 
 function firstWordUpperCase(sentence, callback, personalcallback) {
@@ -38,8 +38,6 @@ function firstWordUpperCase(sentence, callback, personalcallback) {
     console.log("Our new sentence: " + newSentence + " with " + i + " words .");
   }
 
-  
-//   firstWordUpperCase("this is an appleSeeds course!", dashesBetween);
   firstWordUpperCase("this is an appleSeeds course!", dashesBetween,callNew);
 
 
@@ -52,7 +50,7 @@ function firstWordUpperCase(sentence, callback, personalcallback) {
   function countLetters(sentence) {
     const lettersOnly = sentence.replace(/[^a-zA-Z]/g, '');
     const letterCount = lettersOnly.length;
-    console.log("The sentence: " + sentence + " have: " + letterCount + " letters .");
+    console.log("The sentence: " + sentence + "  it has a: " + letterCount + " letters .");
   }
   function3("this is an appleSeeds course!", countLetters);
 

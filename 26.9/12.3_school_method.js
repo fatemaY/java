@@ -100,4 +100,4 @@ const school = {
 
       }
     
-      console.log(priceForLessons (4,100));
+      console.log(priceForLessons (1,100));
