@@ -167,12 +167,13 @@ function funcD2() {
 
 // --------------------------------------------------------------------------------------
 //--------------------------- Block 5--------------------------
+var f = 1;
 
 function funcE() {
     console.log("Value of f in local scope: ", f);
 }
 console.log("Value of f in global scope: ", f);
-let f = 1;
+// var f = 1;
 funcE();
 
    
